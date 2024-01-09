@@ -1,0 +1,116 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-list {
+    margin-top: 20px;
+  }
+
+  .hero__container {
+    grid-template-columns: 1fr;
+  }
+
+  .right-skil {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .right-percent {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .dial {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .hero__subtitle {
+    font-size: 22px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+
+  .right-skil {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .dial {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 60px;
+    margin: 10px;
+  }
+
+  .services-title {
+    font-size: 24px;
+  }
+
+  .services-list__item,
+  .portfolio-list__item-first {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .action-btn {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero__title {
+    font-size: 24px;
+  }
+
+  .hero__subtitle {
+    font-size: 18px;
+  }
+
+  .hero__description {
+    font-size: 12px;
+  }
+
+  .right-skil {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .dial {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 40px;
+    margin: 10px;
+  }
+
+  .services-title {
+    font-size: 20px;
+  }
+
+  .services-list__item,
+  .portfolio-list__item-first {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .action-btn {
+    font-size: 14px;
+  }
+}
